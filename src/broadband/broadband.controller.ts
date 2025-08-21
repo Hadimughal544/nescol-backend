@@ -2,7 +2,7 @@ import { Body, Controller, Get, Post } from '@nestjs/common';
 import { BroadbandService } from './broadband.service';
 import { Broadband } from './broadband.entity/broadband.entity';
 
-@Controller('broadband')
+@Controller('api/broadband')
 export class BroadbandController {
   constructor(private readonly broadbandservice: BroadbandService) {}
 

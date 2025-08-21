@@ -7,7 +7,7 @@ async function bootstrap() {
     origin: 'https://nescolutilities.co.uk',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type, Authorization',
-    Credentials: true,
+    credentials: true,
   });
   await app.listen(3001, '0.0.0.0');
 }

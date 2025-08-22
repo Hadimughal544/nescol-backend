@@ -19,7 +19,6 @@ import { MailModule } from './mail/mail.module';
       database: 'nescol',
       autoLoadEntities: true,
       synchronize: true,
-      dropSchema: true,
     }),
     EnergyModule,
     WaterModule,

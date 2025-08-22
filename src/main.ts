@@ -9,6 +9,6 @@ async function bootstrap() {
     allowedHeaders: 'Content-Type, Authorization',
     credentials: true,
   });
-  await app.listen(3001, '0.0.0.0');
+  await app.listen(3001, '127.0.0.1');
 }
 bootstrap();

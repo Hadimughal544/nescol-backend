@@ -2,7 +2,7 @@ import { Controller, Get, Post, Body } from '@nestjs/common';
 import { EnergyService } from './energy.service';
 import { Energy } from './energy.entity/energy.entity';
 
-@Controller('api/energy')
+@Controller('energy')
 export class EnergyController {
   constructor(private readonly energyService: EnergyService) {}
 
